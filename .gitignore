@@ -1,0 +1,16 @@
+# MacOS files
+*.DS_Store
+
+# Vagrant VM
+.vagrant
+
+# Logs
+logs
+*.log
+
+# Dependency directory
+# https://docs.npmjs.com/cli/shrinkwrap#caveats
+node_modules
+
+# Debug log from npm
+npm-debug.log
