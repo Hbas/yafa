@@ -17,3 +17,5 @@ npm-debug.log
 
 #YAFA-Specific
 config/categorias.json
+public/css/style.css
+public/css/style.css.map
