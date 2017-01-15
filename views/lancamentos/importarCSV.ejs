@@ -1,0 +1,13 @@
+<% include ../partials/header.ejs %>
+<div class="row">
+  <div class="col-sm-12">
+    <form action="csv" method="post" enctype="multipart/form-data">
+      <div class="form-group">
+        <label for="csvFile">Arquivo CSV do banco</label>
+        <input type="file" name= "csvFile" id="csvFile" required="required">
+      </div>
+      <input type="submit" class="btn btn-sm btn-primary" value="Enviar"></input>
+    </form>
+  </div>
+</div>
+<% include ../partials/footer.ejs %>

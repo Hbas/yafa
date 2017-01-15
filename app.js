@@ -31,6 +31,7 @@ app.use('/js', express.static(__dirname + '/node_modules/jquery/dist')); // redi
 app.use('/css', express.static(__dirname + '/node_modules/bootstrap/dist/css')); // redirect CSS bootstrap
 
 app.use('/', require('./routes/home'));
+app.use('/lancamentos', require('./routes/lancamentos'));
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
